@@ -1,0 +1,556 @@
+* {
+    margin: 0;
+}
+
+.topLine {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background: #E5E5E5;
+}
+
+.kekxd {
+    /* Доставка */
+    white-space: nowrap;
+
+    width: 64px;
+    height: 17px;
+
+    margin: 17px 20px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    /* Dark */
+
+    color: #333333;
+
+}
+
+.LogoName {
+    /* BEAUTY */
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.1em;
+    margin-left: 20px;
+
+    /* Accent */
+
+    color: #66C05D;
+}
+
+.numberhead {
+    /* 8 (812) 123-45-67 */
+
+    align-items: center;
+    display: flex;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+
+.numberbutton {
+    display: inline-flex;
+    align-items: center;
+}
+
+.recall {
+    box-sizing: border-box;
+
+    margin-left: 40px;
+    width: 170px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+
+    background: #FFFFFF;
+    /* Accent */
+
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+}
+
+.second-lineMain {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-line {
+
+    height: 19px;
+    margin-right: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    justify-content: center;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.rectangle {
+
+    align-items: center;
+    display: flex;
+    height: 604px;
+    background: #66C05D;
+    background-image: url(img/Frame\ 2.png);
+
+}
+
+.bgc {
+    flex-wrap: wrap;
+    height: 954px;
+    background: #EFEFEF;
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+
+}
+
+.headerpic {
+
+    width: 308px;
+    height: 44px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #FFFFFF;
+}
+
+.textpic {
+    margin-top: 50px;
+    width: 308px;
+    height: 35px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+
+
+    color: #FFFFFF;
+}
+
+.wrapper {
+
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logonpic {
+    display: inline-flex;
+    align-items: center;
+}
+
+.menuline {
+    width: 675px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    height: 80px;
+
+
+}
+
+.imagebox {
+    width: 308px;
+    height: 219px;
+    margin-left: 405px;
+}
+
+.more {
+    box-sizing: border-box;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    border-radius: 40px;
+    margin-top: 50px;
+    width: 170px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+
+}
+
+.goods {
+    margin-left: 405px;
+    display: inline-flex;
+    height: 752px;
+    width: 1100px;
+
+}
+
+.wrap {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-left: 622px;
+}
+
+.special {
+    justify-self: center;
+    margin-top: 80px;
+    width: 100%;
+    width: 1100px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.specialOffers {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.imgcar {
+    justify-self: right;
+    margin-right: 45px;
+}
+
+.chair {
+    width: 255px;
+    height: 363px;
+}
+
+.go {
+    height: 147px;
+    justify-self: center;
+    display: inline-block;
+    margin-left: 405px;
+
+}
+
+.chairs {
+    margin-left: 405px;
+    margin-top: 16px;
+    display: flex;
+    width: 1100px;
+    justify-content: space-between;
+}
+
+.chair {
+    background-color: #FFFFFF;
+    width: 255px;
+    height: 363px;
+    justify-items: center;
+}
+
+.imgchair {
+    width: 125px;
+    height: 166px;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.imgtext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    width: 195px;
+    height: 33px;
+
+}
+
+.asd {
+    display: flex;
+    width: 195px;
+    height: 33px;
+    margin: 20px 30px;
+    justify-items: center;
+    justify-content: center;
+}
+
+.price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.textprice {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.buttonbuy {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.buy {
+    background: #66C05D;
+    border-radius: 30px;
+    width: 130px;
+    height: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    border: 0px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.feedback {
+    display: flex;
+    width: 1100px;
+    height: 212px;
+    margin: 100px 405px;
+}
+
+.emailfeedback {
+    width: 540px;
+    height: 212px;
+    background-color: #66C05D;
+    margin-right: 30px;
+    display: flex;
+}
+
+.mapshopfeedback {
+    width: 540px;
+    height: 212px;
+    background-color: #66C05D;
+}
+
+.emailtext {
+    height: 140px;
+    width: 240px;
+    display: flex;
+    margin: 35px 40px;
+    flex-wrap: wrap;
+}
+
+.emailtextheader {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.emailtxt {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 15px;
+    color: #FFFFFF;
+}
+
+.emailinput {
+    width: 225px;
+    height: 35px;
+    border: 0px;
+    padding-left: 30px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin-top: 25px;
+}
+
+.mailimg {
+    margin: 53px 30px;
+}
+
+.mapshoptext {
+    display: flex;
+    width: 180px;
+    height: 150px;
+    margin: 35px 40px;
+    flex-wrap: wrap;
+}
+
+.mapheader {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.maptext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 25px;
+    color: #FFFFFF;
+}
+
+.mapbutton {
+    width: 170px;
+    height: 35px;
+    margin-top: 25px;
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer {
+    width: 100%;
+    height: 184px;
+    background: #FFFFFF;
+}
+
+.bottomline {
+    display: flex;
+    height: 121px;
+    width: 1150px;
+    align-items: center;
+    margin-left: 405px;
+}
+
+.imgsocial {
+    display: flex;
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #66C05D;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.youtubeicon {
+    width: 22px;
+    height: 15px;
+}
+
+.vkicon {
+    width: 28px;
+    height: 15px;
+}
+
+.facebookicon {
+    width: 11px;
+    height: 20px;
+}
+
+.instagramicon {
+    width: 22px;
+    height: 22px;
+}
+
+.address {
+    margin-left: 160px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.footernumber {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left: 105px;
+    color: #000000;
+}
+
+.footerbutton {
+    width: 170px;
+    height: 40px;
+    background: #FFFFFF;
+    margin-left: 40px;
+    border: 2px solid #66C05D;
+    border-radius: 40px;
+}
+
+.rights {
+    width: 100%;
+    height: 64px;
+    background: #EFEFEF;
+    display: flex;
+    align-items: center;
+}
+
+.bestshop {
+    margin-left: 405px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+
+.politic {
+    margin-left: 345px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #828282;
+}
